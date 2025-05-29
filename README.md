@@ -16,3 +16,17 @@ NUCLEO_XXXX_SS_ZZZ
 - ZZZ = Section number from the course videos
 
 ============================================================  
+
+### Disclaimer  
+This repository is a personal learning record based on my own practice while following the Udemy courses:  
+- Embedded Systems Bare-Metal Programming Ground Up™ (STM32)  
+- Advanced Embedded Systems Bare-Metal Programming Ground Up™  
+
+All code in this repository was written by me from scratch as part of my learning process.  
+It does not include any proprietary course materials, such as instructor-provided source code, slides, or video content.  
+No original code from the course has been copied or redistributed.  
+
+This repository is intended solely for educational and non-commercial purposes.  
+I highly recommend purchasing the original courses to fully benefit from the instructor's insights and guidance.  
+
+============================================================  
