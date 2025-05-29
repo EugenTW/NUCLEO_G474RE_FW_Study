@@ -121,4 +121,5 @@ int main(void) {
         GPIOA_ODR |= PIN5;
         simple_delay(2000000);
     }
+
 }

@@ -19,7 +19,8 @@ inline void simple_delay(volatile uint32_t t) {
 
 int main() {
     RCC_Registers::AHB2ENR() |= (1U << 0);
-    (void)RCC_Registers::AHB2ENR();
+    volatile uint32_t dummy = RCC_Registers::AHB2ENR();
+    (void)dummy;
 
     GPIOA_Registers::MODER() &= ~(3U << (5 * 2));
     GPIOA_Registers::MODER() |=  (1U << (5 * 2));
